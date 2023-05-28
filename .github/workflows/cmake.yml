@@ -25,6 +25,7 @@ jobs:
         git clone https://github.com/pothosware/SoapySDR.git
         cd SoapySDR
         mkdir ./build
+        cmake .
         cmake --build ./build --config Release
         cmake --build ./build --config Release --target install
 
